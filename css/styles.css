@@ -1,3 +1,20 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #e5e5e5;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.body {
+  font-family: var(--main-font);
+  font-weight: 500;
+}
+
 /*=============HEADER=============*/
 
 .logo {
@@ -43,8 +60,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
-  list-style: none;
-  text-decoration: none;
 }
 .tel-link {
   font-family: Roboto;
@@ -54,10 +69,12 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.contacts-item {
   list-style: none;
   text-decoration: none;
 }
-.contacts-item {
+.link {
   list-style: none;
   text-decoration: none;
 }
@@ -78,21 +95,30 @@
 
   color: #ffffff;
 
-  background-color: black;
+  background-color: #2f303a;
+}
+.menu-item a:hover,
+.menu-item a:focus {
+  text-decoration: none;
+  list-style: none;
+}
+.menu.link.current {
+  color: #2196f3;
 }
 
 .modal-btn {
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 
-color: #FFFFFF;
-background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
+  margin: 0 auto;
 }

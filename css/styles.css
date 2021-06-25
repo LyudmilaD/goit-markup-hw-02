@@ -1,0 +1,98 @@
+/*=============HEADER=============*/
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  list-style: none;
+  text-decoration: none;
+}
+.web-logo {
+  color: #2196f3;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-link-black {
+  color: black;
+}
+.menu-item {
+  text-decoration: none;
+  list-style: none;
+}
+.mail-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  list-style: none;
+  text-decoration: none;
+}
+.tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  list-style: none;
+  text-decoration: none;
+}
+.contacts-item {
+  list-style: none;
+  text-decoration: none;
+}
+/*=============END HEADER=============*/
+
+/*=============HERO=============*/
+
+.hero {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  background-color: black;
+}
+
+.modal-btn {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+background-color: #2196F3;
+}

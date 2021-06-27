@@ -21,7 +21,6 @@
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -32,8 +31,7 @@
   color: #2196f3;
 }
 .menu-link {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,8 +68,7 @@
 }
 
 .mail-link {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -79,8 +76,7 @@
   color: #757575;
 }
 .tel-link {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -94,8 +90,7 @@
 
 .hero {
   text-align: center;
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -117,8 +112,7 @@
 }
 
 .modal-btn {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -136,8 +130,7 @@
 /*=============FEATURES=============*/
 
 .advantages-item {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -147,8 +140,7 @@
   color: #212121;
 }
 .advantages-item-text {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -159,8 +151,7 @@
 /*=============END FEATURES=============*/
 /*=============EXAMPLES=============*/
 .examples-item-title {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -172,8 +163,7 @@
 /*============END EXAMPLES=============*/
 /*============TEAM=============*/
 .team-item-title {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -187,8 +177,7 @@
 }
 
 .img-title {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -199,8 +188,7 @@
 }
 
 .img-subtitle {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -217,8 +205,7 @@
 }
 
 .logo-footer {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -230,32 +217,26 @@
   color: #ffffff;
 }
 .desk-address {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  cursor: pointer;
   color: #ffffff;
-  font-style: normal;
 }
 .contacts-mail {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  font-style: normal;
 }
 
 .contacts-tel {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -269,8 +250,7 @@
 
 /*============CONTENT OF PAGE PORTFOLIO=============*/
 .menu-link-blue-port {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -283,8 +263,7 @@
 }
 
 .modal-btn-port-blue {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -297,8 +276,7 @@
   cursor: pointer;
 }
 .modal-btn-port {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -325,8 +303,7 @@
 
 /*============GALLERY OF WORKS=============*/
 .img-headline {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -335,8 +312,7 @@
   color: #212121;
 }
 .img-headline-subtitle {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;

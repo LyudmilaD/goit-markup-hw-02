@@ -27,13 +27,9 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  list-style: none;
-  text-decoration: none;
 }
 .web-logo {
   color: #2196f3;
-  list-style: none;
-  text-decoration: none;
 }
 .menu-link {
   font-family: Roboto;
@@ -44,16 +40,11 @@
   letter-spacing: 0.02em;
 
   color: #2196f3;
-  list-style: none;
-  text-decoration: none;
 }
 .menu-link.menu-link-black {
   color: black;
 }
-.menu-item {
-  text-decoration: none;
-  list-style: none;
-}
+
 .menu-link:hover,
 .menu-link:focus {
   color: #2196f3;
@@ -67,11 +58,6 @@
 }
 
 .mail-link:active {
-  color: #2196f3;
-
-}
-
-.tel-link:active {
   color: #2196f3;
 }
 
@@ -90,7 +76,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
 }
 .tel-link {
   font-family: Roboto;
@@ -101,14 +87,7 @@
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contacts-item {
-  list-style: none;
-  text-decoration: none;
-}
-.link {
-  list-style: none;
-  text-decoration: none;
-}
+
 /*=============END HEADER=============*/
 
 /*=============HERO=============*/
@@ -184,12 +163,186 @@
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/*============END EXAMPLES=============*/
+/*============TEAM=============*/
+.team-item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
 }
-.examples-picture {
-  justify-content: left;
+.team-item {
+  background: #f5f4fa;
 }
+
+.img-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.img-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*============END TEAM=============*/
+/*============FOOTER=============*/
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.web-logo-footer {
+  color: #ffffff;
+}
+.desk-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  font-style: normal;
+}
+.contacts-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+/*============END FOOTER=============*/
+
+/*============CONTENT OF PAGE PORTFOLIO=============*/
+.menu-link-blue-port {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.hiden {
+  display: none;
+}
+
+.modal-btn-port-blue {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.modal-btn-port {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.modal-btn-port-blue:hover,
+.modal-btn-port-blue:focus {
+  color: #2196f3;
+}
+.modal-btn-port:hover,
+.modal-btn-port:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*============END CONTENT OF PAGE PORTFOLIO=============*/
+
+/*============GALLERY OF WORKS=============*/
+.img-headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.img-headline-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*===========END GALLERY OF WORKS=============*/

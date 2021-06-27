@@ -13,6 +13,8 @@
 .body {
   font-family: var(--main-font);
   font-weight: 500;
+  color: #212121;
+  background-color: #e5e5e5;
 }
 
 /*=============HEADER=============*/
@@ -45,13 +47,42 @@
   list-style: none;
   text-decoration: none;
 }
-.menu-link-black {
+.menu-link.menu-link-black {
   color: black;
 }
 .menu-item {
   text-decoration: none;
   list-style: none;
 }
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+.menu-link.current {
+  color: #2196f3;
+}
+
+.menu-link:active {
+  color: #2196f3;
+}
+
+.mail-link:active {
+  color: #2196f3;
+
+}
+
+.tel-link:active {
+  color: #2196f3;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+.tel-link:hover {
+  color: #2196f3;
+}
+
 .mail-link {
   font-family: Roboto;
   font-style: normal;
@@ -97,8 +128,8 @@
 
   background-color: #2f303a;
 }
-.menu-item a:hover,
-.menu-item a:focus {
+.menu-item:hover,
+.menu-item:focus {
   text-decoration: none;
   list-style: none;
 }
@@ -122,6 +153,9 @@
   background-color: #2196f3;
   margin: 0 auto;
 }
+/*=============END HERO=============*/
+/*=============FEATURES=============*/
+
 .advantages-item {
   font-family: Roboto;
   font-style: normal;
@@ -142,4 +176,20 @@
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+/*=============END FEATURES=============*/
+/*=============EXAMPLES=============*/
+.examples-item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.examples-picture {
+  justify-content: left;
 }
